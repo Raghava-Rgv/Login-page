@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/loginDB', {
+mongoose.connect('mongodb+srv://raghava:<db_password>@raghava.xepe3.mongodb.net/?retryWrites=true&w=majority&appName=Raghava, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
